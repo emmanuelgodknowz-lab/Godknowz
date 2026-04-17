@@ -9,8 +9,10 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^4.21.0",
-    "nodemon": "^2.0.22" // Added nodemon as a dependency for the dev script
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   },
   "keywords": [
     "webhook",
@@ -18,9 +20,9 @@
     "meta",
     "whatsapp"
   ],
-  "author": "Your Name", // Consider adding the author's name
+  "author": "Godknowz",
   "license": "ISC",
   "engines": {
-    "node": ">=14.x" // Specify the Node.js version compatibility
+    "node": ">=14.x"
   }
 }
