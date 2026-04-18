@@ -34,7 +34,7 @@ app.post("/webhook", (req, res) => {
 });
 
 // Start the server
-app.listen(process.env.PORT, 0.0.0.0, () => {
+app.listen(process.env.PORT, 0.0.0.0 () => {
   console.log(`🚀 Webhook server is running on http://localhost:${process.env.PORT}`);
 });
 
