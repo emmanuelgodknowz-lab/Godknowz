@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
-const VERIFY_TOKEN = "test123";
+const VERIFY_TOKEN = "ogbodomaduabuchi18";
 
 app.use(express.json());
 
